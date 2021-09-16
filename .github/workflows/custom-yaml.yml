@@ -41,6 +41,6 @@ jobs:
         uses: canastro/copy-action@0.0.2
         with:
           # Source file
-          source: ../../charts/grafana/*.tgz
+          source: charts/grafana/*.tgz
           # Target file
-          target: ../../docs/sources
+          target: docs/sources
