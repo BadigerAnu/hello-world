@@ -1,4 +1,4 @@
-# Grafana Helm Chart
+# Grafana Helm Chart - Updating nothing
 
 * Installs the web dashboarding system [Grafana](http://grafana.org/)
 
