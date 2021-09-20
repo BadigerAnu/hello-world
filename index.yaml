@@ -53,4 +53,25 @@ entries:
     urls:
     - https://github.com/BadigerAnu/hello-world/releases/download/grafana-6.16.6/grafana-6.16.6.tgz
     version: 6.16.6
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 1.12.1
+    created: "2021-09-20T12:15:21.225002217Z"
+    description: NGINX Ingress Controller
+    digest: b3e4a4f78014dae92462af9525dd5636b3d0432ee6dda92e36d4ad4250a3dfa8
+    home: https://github.com/nginxinc/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.12.1/deployments/helm-chart/chart-icon.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: nginxinc
+    name: nginx-ingress
+    sources:
+    - https://github.com/nginxinc/kubernetes-ingress/tree/v1.12.1/deployments/helm-chart
+    urls:
+    - https://github.com/BadigerAnu/hello-world/releases/download/nginx-ingress-0.10.2/nginx-ingress-0.10.2.tgz
+    version: 0.10.2
 generated: "2021-09-16T12:33:06.532172771Z"
