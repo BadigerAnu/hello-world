@@ -13,4 +13,4 @@ maintainers:
 name: nginx-ingress
 sources:
 - https://github.com/nginxinc/kubernetes-ingress/tree/v1.12.1/deployments/helm-chart
-version: 0.10.1
+version: 0.10.2
