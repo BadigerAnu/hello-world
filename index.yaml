@@ -3,6 +3,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.1.2
+    created: "2021-10-12T09:34:10.270534303Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: da79b84177705914f809aa656b1b2f71205afba242a838afc44e474bfc6c47f5
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - https://github.com/BadigerAnu/hello-world/releases/download/helm-chart-6.16.11/grafana-6.16.11.tgz
+    version: 6.16.11
+  - apiVersion: v2
+    appVersion: 8.1.2
     created: "2021-10-12T09:27:44.102124944Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: efb119012b307ba7f4ec3df2a25f1ea1c05622427e537d611cf453f9598f1f52
@@ -82,6 +108,26 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 1.12.1
+    created: "2021-10-12T09:34:10.458827409Z"
+    description: NGINX Ingress Controller
+    digest: 232c71bf119f46e463abf2f9ba587503d394cfc19b3feed8f9f4855f6ff7a032
+    home: https://github.com/nginxinc/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.12.1/deployments/helm-chart/chart-icon.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: nginxinc
+    name: nginx-ingress
+    sources:
+    - https://github.com/nginxinc/kubernetes-ingress/tree/v1.12.1/deployments/helm-chart
+    urls:
+    - https://github.com/BadigerAnu/hello-world/releases/download/helm-chart-0.10.3/nginx-ingress-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 1.12.1
     created: "2021-09-20T12:15:21.225002217Z"
     description: NGINX Ingress Controller
     digest: b3e4a4f78014dae92462af9525dd5636b3d0432ee6dda92e36d4ad4250a3dfa8
@@ -100,4 +146,4 @@ entries:
     urls:
     - https://github.com/BadigerAnu/hello-world/releases/download/nginx-ingress-0.10.2/nginx-ingress-0.10.2.tgz
     version: 0.10.2
-generated: "2021-09-16T12:33:06.532172771Z"
+generated: "2021-10-12T09:34:10.458845509Z"
