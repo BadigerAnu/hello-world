@@ -22,7 +22,13 @@ jobs:
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.1.0
+        uses: helm/chart-releaser-action@v1.2.2
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_RELEASE_NAME_TEMPLATE: "helm-chart-{{ .Version }}"
+        with:
+          charts_dir: charts
+          # see https://github.com/helm/chart-releaser/issues/115
+          # needed for private GitHub repos
+          charts_repo_url: https://raw.githubusercontent.com/BadigerAnu/hello-world/gh-pages/
           
